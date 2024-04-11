@@ -1,0 +1,36 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cash Register</title>
+</head>
+<body>
+    <form action="./test.php" method="post">
+        <label for="purchaseAmount">Введите сумму покупки:</label>
+        <input type="number" id="purchaseAmount" name="purchaseAmount" step="0.01" required>
+        <button type="submit">Получить сдачу</button>
+    </form>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Расчёт сдачи</title>
+</head>
+<body>
+    <h2>Кассовый расчёт</h2>
+    <form action="./test.php" method="post">
+        <label for="purchaseAmount">Сумма покупки:</label>
+        <input type="number" id="purchaseAmount" name="purchaseAmount" step="0.01" required><br><br>
+        
+        <label for="receivedAmount">Полученная сумма:</label>
+        <input type="number" id="receivedAmount" name="receivedAmount" step="0.01" required><br><br>
+        
+        <input type="submit" value="Рассчитать сдачу">
+    </form>
+</body>
+</html>
